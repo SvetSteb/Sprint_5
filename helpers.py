@@ -12,9 +12,6 @@ def random_adv_name(length = 8):
     random_adv_name = ''.join(random.choice(all_chars) for _ in range(8))
     return random_adv_name
 
-word = random_adv_name()
-print(word)
-
 def safe_click(driver, by, value, max_retries=3):
     for _ in range(max_retries):
         try:

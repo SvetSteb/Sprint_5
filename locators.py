@@ -29,3 +29,4 @@ class Locators:
     SUBMIT_ADV_BUTTON = (By.XPATH, ".//button[text()='Опубликовать']") # Кнопка Опубликовать для объявления
     LAST_USER_ADV = (By.XPATH, ".//div[@class='profilePage_listningBlock__Fi6E5']/*/*/div[@class='card']") # созданное объявление пользователя
     NAME_LAST_CARD = (By.XPATH, ".//div[@class='description']/div[@class='about']/h2") # Название последнего объявления пользователя
+    
