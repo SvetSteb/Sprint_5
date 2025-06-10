@@ -22,3 +22,7 @@ def safe_click(driver, by, value, max_retries=3):
 
         except StaleElementReferenceException:
             continue
+
+def user_email():    
+    email = f'svetlana{random.randint(0,999)}@test.net'
+    return email
