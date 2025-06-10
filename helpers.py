@@ -22,7 +22,6 @@ def safe_click(driver, by, value, max_retries=3):
                 EC.element_to_be_clickable((by, value))
             )
             element.click()
-            return True
+
         except StaleElementReferenceException:
             continue
-    return False
